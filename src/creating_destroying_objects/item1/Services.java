@@ -6,6 +6,8 @@ package creating_destroying_objects.item1;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import creating_destroying_objects.item1.impl.MyConcurrentHashMap;
+
 /**
  * @author quocanh
  *
@@ -14,8 +16,7 @@ public class Services {
 	private Services() {} // Prevents instantiation (Item 4)
 	
 	// Maps service names to services
-	private static final Map<String, Provider> providers =
-			new ConcurrentHashMap<String, Provider>();
+	private static final Map<String, Provider> providers =	MyConcurrentHashMap.newInstance();
 	public static final String DEFAULT_PROVIDER_NAME = "<def>";
 	
 	// Provider registration API
