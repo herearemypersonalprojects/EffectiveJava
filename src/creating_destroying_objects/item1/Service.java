@@ -2,7 +2,7 @@
  * Service provider framework sketch
  * Service interface
  */
-package item1;
+package creating_destroying_objects.item1;
 
 /**
  * @author quocanh

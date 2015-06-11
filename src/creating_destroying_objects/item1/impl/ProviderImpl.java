@@ -1,10 +1,10 @@
 /**
  * 
  */
-package item1.impl;
+package creating_destroying_objects.item1.impl;
 
-import item1.Provider;
-import item1.Service;
+import creating_destroying_objects.item1.Provider;
+import creating_destroying_objects.item1.Service;
 
 /**
  * @author quocanh

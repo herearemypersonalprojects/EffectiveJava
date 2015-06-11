@@ -1,9 +1,9 @@
 /**
  * 
  */
-package item1;
+package creating_destroying_objects.item1;
 
-import item1.impl.ProviderImpl;
+import creating_destroying_objects.item1.impl.ProviderImpl;
 
 /**
  * @author quocanh

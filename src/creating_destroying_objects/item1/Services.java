@@ -1,7 +1,7 @@
  /**
  * Noninstantiable class for service registration and access 
  */
-package item1;
+package creating_destroying_objects.item1;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
